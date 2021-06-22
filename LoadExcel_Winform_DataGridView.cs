@@ -1,6 +1,7 @@
 try
 {
      //設定OLEDB，電腦需安裝2010可轉發套件64位元
+     //Form1.queueTableName為檔案路徑
      OleDbConnection myconnection = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + Form1.queueTableName + ";Extended Properties='Excel 12.0;HDR=YES';");
      //查詢Excel分頁
      OleDbDataAdapter oda = new OleDbDataAdapter("Select * from [sheet1$]", myconnection);
