@@ -11,7 +11,7 @@ try
      dataGridView1.Rows.Clear();
      dataGridView1.Columns.Clear();
 	 
-     //設定欄位屬性
+     //設定欄位型態
      DataGridViewImageColumn imageColNum = new DataGridViewImageColumn();
      DataGridViewTextBoxColumn textColone = new DataGridViewTextBoxColumn();
      DataGridViewTextBoxColumn textColtwo = new DataGridViewTextBoxColumn();
