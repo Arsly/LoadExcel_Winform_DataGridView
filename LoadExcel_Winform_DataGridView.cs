@@ -20,7 +20,7 @@ try
      DataGridViewTextBoxColumn textColfifth = new DataGridViewTextBoxColumn();
      DataGridViewTextBoxColumn textColsixth = new DataGridViewTextBoxColumn();
      DataGridViewTextBoxColumn textColseventh = new DataGridViewTextBoxColumn();
-     //加入dataGridView
+     //型態加入dataGridView
      dataGridView1.Columns.Add(imageColNum);
      dataGridView1.Columns.Add(textColone);
      dataGridView1.Columns.Add(textColtwo);
@@ -61,7 +61,7 @@ try
      {
         //圖片路徑
         countPath = Application.StartupPath + @"\img\" + dt.Rows[i]["name"] + ".png";
-        countOne = "" + dt.Rows[i]["one"];   //["Excel欄位標題名稱"] 標題名稱當索引搜尋此欄位資料，存到變數
+        countOne = "" + dt.Rows[i]["one"];   //["Excel欄位標題名稱"] 標題名稱當索引，搜尋此欄位資料，存到變數
         countTwo = "" + dt.Rows[i]["two"];
         countThree = "" + dt.Rows[i]["three"];
         countFour = "" + dt.Rows[i]["Four"];
